@@ -1,0 +1,118 @@
+<div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Detailed Analysis</h1>
+        </div>
+        <!-- /.col-lg-12 -->
+        <div class="row">
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading chart-heading">
+                            Travel Analysis
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="flot-chart">
+                                <div class="flot-chart-content" id="flot-pie-chart-travel"></div>
+                            </div>
+                            <div class="form-group">
+                                <label>Select Cards</label>
+                                    <label ng-repeat="product in productsForTravel">
+                                        <input type="checkbox" ng-click="productSelected(product,'productsForTravel')" checked>&nbsp;&nbsp;{{product.cardName}}&nbsp;&nbsp;
+                                    </label>
+                            </div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                 <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading chart-heading">
+                            Entertainment Analysis
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="flot-chart">
+                                <div class="flot-chart-content" id="flot-pie-chart-entertainment"></div>
+                            </div>
+                            <div class="form-group">
+                                <label>Select Cards</label>
+                                    <label ng-repeat="product in productsForEntertainment">
+                                        <input type="checkbox" ng-click="productSelected(product,'productsForEntertainment')" checked>&nbsp;&nbsp;{{product.cardName}}&nbsp;&nbsp;
+                                    </label>
+                            </div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <!-- /.col-lg-6 -->
+                 <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading chart-heading">
+                            Food Analysis
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="flot-chart">
+                                <div class="flot-chart-content" id="flot-pie-chart-food"></div>
+                            </div>
+                            <div class="form-group">
+                                <label>Select Cards</label>
+                                    <label ng-repeat="product in productsForFood">
+                                        <input type="checkbox" ng-click="productSelected(product,'productsForFood')" checked>&nbsp;&nbsp;{{product.cardName}}&nbsp;&nbsp;
+                                    </label>
+                            </div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                 <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading chart-heading">
+                            Insuranse Analysis
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="flot-chart">
+                                <div class="flot-chart-content" id="flot-pie-chart-insurance"></div>
+                            </div>
+                            <div class="form-group">
+                                <label>Select Cards</label>
+                                    <label ng-repeat="product in productsForInsurance">
+                                        <input type="checkbox" ng-click="productSelected(product,'productsForInsurance')" checked>&nbsp;&nbsp;{{product.cardName}}&nbsp;&nbsp;
+                                    </label>
+                            </div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                 <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading chart-heading">
+                            Fuel Analysis
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="flot-chart">
+                                <div class="flot-chart-content" id="flot-pie-chart-fuel"></div>
+                            </div>
+                            <div class="form-group">
+                                <label>Select Cards</label>
+                                    <label ng-repeat="product in productsForFuel">
+                                        <input type="checkbox" ng-click="productSelected(product,'productsForFuel')" checked>&nbsp;&nbsp;{{product.cardName}}&nbsp;&nbsp;
+                                    </label>
+                            </div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+            </div>
+</div>
+

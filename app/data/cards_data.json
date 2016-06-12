@@ -1,0 +1,23 @@
+[{
+	"cardId": "02",
+	"cardName": "Jet Privilege Card",
+	"specificRules": {
+		"freeRenewalLimit": "300000"
+	},
+	"commonRules": {
+		"creditLimitValue": "860000",
+		"creditLimitRatio": "2",
+		"salaryCriteriaValue": "420000",
+		"typeOfPurchase": ["travel"]
+	}
+},{
+	"cardId": "01",
+	"cardName": "Platinum Card",
+	"specificRules": {},
+	"commonRules": {
+		"creditLimitRatio": "2",
+		"creditLimitValue": "600000",
+		"salaryCriteriaValue": "360000",
+		"typeOfPurchase": ["entertainment","food","fuel"]
+	}
+}]
